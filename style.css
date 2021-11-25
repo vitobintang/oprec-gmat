@@ -1,0 +1,63 @@
+.graphcontainer {
+    display: flex;
+    flex-direction: row;
+}
+
+#yaw {
+    margin: 3% 5% 3% 5%;
+    width: 40%;
+    height: 320px;
+}
+#pitch {
+    margin: 3% 5% 3% 5%;
+    width: 40%;
+    height: 320px;
+}
+#roll {
+    margin-left: 30%;
+    margin-bottom: 5%;
+    width: 40%;
+    height: 320px;
+}
+#judul {
+    height: 60px;
+    background-color: #333333;
+    text-align: center;
+    font-size: 40px;
+    color: tomato
+}
+
+body {
+    background-color: tomato;
+}
+
+
+#nama {
+    width: 100px;
+    height: 30px;
+    margin: 15px 20px 0px 0px;
+    float: right;
+    background-color: tomato;
+    font-size: 22px;
+    text-align: center;
+    color:#333333;
+}
+
+.button {
+    float: left;
+    margin-left: 0.5%;
+    margin-top: 0.5%;
+    background-color: tomato;
+    border: none;
+    color: white;
+    padding: 11px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color:white;
+    color: black;
+}
